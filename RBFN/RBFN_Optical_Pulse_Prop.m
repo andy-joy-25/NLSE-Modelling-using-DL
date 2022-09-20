@@ -12,23 +12,6 @@ r = randperm(231);
 X_new = X(:,r);
 Y_new = Y(:,r);
 
-% net = feedforwardnet([20 15 5]);
-% net.layers{1}.transferFcn = 'logsig';
-% net.layers{2}.transferFcn = 'logsig';
-% net.layers{3}.transferFcn = 'logsig';
-% net.layers{4}.transferFcn = 'logsig';
-% net.trainFcn = 'traingdm';
-% 
-% net.divideParam.trainRatio = 0.9;
-% net.divideParam.valRatio = 0.05;
-% net.divideParam.testRatio = 0.05;
-% 
-% net.trainParam.max_fail = 10;
-% net.trainParam.min_grad = 1e-10;
-% net.trainParam.epochs = 1e5;
-% 
-% [net,tr] = train(net,X_new,Y_new);
-
 rbfn = newrb(X_new,Y_new,1e-5,1.25);
 
 Xtest = xlsread("D:\PHN-319\Input_Data_Test_PHN-319.xlsx",'A2:BP232');
