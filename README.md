@@ -3,6 +3,8 @@ Modelling Optical Pulse Propagation in a Dispersive and Non-Linear Medium using 
 
 Course Project for the course PHN-319: Technical Communication at IIT Roorkee
 
+## Organization
+
 ```
 Datasets (SSFM) 
  ├── SSFM_Training_Set_Gen.m   ──> Training Dataset generated using the Split Step Fourier Method (SSFM) 
