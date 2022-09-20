@@ -3,4 +3,7 @@ Modelling Optical Pulse Propagation in a Dispersive and Non-Linear Medium using 
 
 Course Project for the course PHN-319: Technical Communication at IIT Roorkee
 
-`Datasets (SSFM)` : Datasets generated using the Split Step Fourier Method (SSFM) to solve the Non-Linear Schrodinger Equation (NLSE)
+Datasets (SSFM) 
+      |-- SSFM_Training_Set_Gen.m --> Training Dataset generated using the Split Step Fourier Method (SSFM) to solve the Non-Linear Schrodinger Equation (NLSE)
+      |-- SSFM_Test_Set_Gen.m --> Test Dataset generated using the Split Step Fourier Method (SSFM) to solve the Non-Linear Schrodinger Equation (NLSE)
+      
